@@ -16,19 +16,6 @@
 
     <!-- font awesome custom cdn link -->
     <script src="https://kit.fontawesome.com/73dcb47781.js" crossorigin="anonymous"></script>
-
-    <!-- tailwind custom css -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-
-                    }
-                }
-            }
-        }
-    </script>
     
     <!-- custom css styles -->
     <style>
@@ -47,7 +34,7 @@
                 <h1 class="text-7xl font-extrabold">It's good <br>
                     tea time at The <br> Tea House</h1>
                 <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-                <button class="btn btn-primary">Explore More</button>
+                <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Explore More</button>
               </div>
               <div>
                 <img src="images/banner.png" class="max-w-sm rounded-lg" />
@@ -144,7 +131,7 @@
         <!-- Great tea and freshly present section ends -->
 
         <!-- Super client section starts here -->
-        <section class="my-24 rounded-lg bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24 flex flex-col lg:flex-row gap-12">
+        <section class="my-24 rounded-lg bg-gradient-to-r from-gradient-start to-gradient-end px-16 py-24 flex flex-col lg:flex-row gap-12">
             <div class="flex items-center pr-28">
               <div class="space-y-5">
                 <h2 class="text-5xl font-extrabold text-white">
@@ -154,7 +141,7 @@
                 </h2>
                 <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
                 <button class="btn  py-2 px-7 text-xl bg-white">
-                    <a class="bg-gradient-to-r from-[#f00] to-[#FF8938] text-transparent bg-clip-text" href="#">Show All</a>
+                    <a class="bg-gradient-to-r from-gradient-start to-gradient-end text-transparent bg-clip-text" href="#">Show All</a>
                 </button>
               </div>
             </div>
@@ -209,7 +196,7 @@
             </div>
             <div class="flex items-center gap-4 lg:gap-10">
                 <p>Ready to get started?</p>
-                <button class="btn  py-2 px-7 text-xl font-bold bg-gradient-to-r from-[#FF8938] to-[#f00] text-white">
+                <button class="btn  py-2 px-7 text-xl font-bold bg-gradient-to-r from-gradient-start to-gradient-end text-white">
                     Get Started
                 </button>
             </div>
@@ -241,7 +228,7 @@
                 <div class="form-control w-full lg:w-80">
                   <div class="join">
                     <input type="text" placeholder="email address" class="bg-transparent border-b-2 border-black pb-2 mr-3" /> 
-                    <button class="btn btn-primary h-12 w-12 rounded-full bg-gradient-to-r from-[#FF8938] to-[#f00] border-0">
+                    <button class="btn btn-primary h-12 w-12 rounded-full bg-gradient-to-r from-gradient-start to-gradient-end border-0">
                         <i class="fa-solid fa-chevron-right  text-white"></i>
                     </button>
                 </div>
@@ -256,5 +243,21 @@
         
     </footer>
     <!-- footer section ends here -->
+
+
+
+    <!-- tailwind custom css -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'gradient-start': '#FF8938',
+                'gradient-end': '#F00',
+              }
+            }
+          }
+        }
+      </script>
 </body>
 </html>
